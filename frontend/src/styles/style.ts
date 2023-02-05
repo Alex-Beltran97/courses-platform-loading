@@ -7,14 +7,7 @@ const theme = createTheme({
     },
     secondary:{
       main:"#000"
-    },
-    text:{
-      primary: "#000",
-      secondary:"#fff"
-    },
-    error:{
-      main:"#f44336"
-    }
+    }    
   }
 });
 

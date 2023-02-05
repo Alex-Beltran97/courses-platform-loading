@@ -5,6 +5,7 @@ import NavBar from "./components/Navbar/NavBar";
 import Home from "./Pages/Home";
 import PageNotFound from "./Pages/PageNotFound";
 import { Box } from "@mui/material";
+import Login from "./Pages/Login";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login />} />
           <Route path="/home" element={<Home />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
